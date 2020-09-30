@@ -1,0 +1,133 @@
+
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("1/8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+#navbar {
+    display: flex;
+    height: 70px;
+    position: relative;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    z-index: -1;
+}
+#logo {
+    margin: 0px 10px;
+    height: 40px;
+}
+#logo img {
+    height: 70px;
+    padding: 2px 2px;
+}
+#logo2 {
+    margin: 0px 10px;
+    height: 40px;
+}
+#logo2 img {
+    height: 70px;
+}
+#navbar ul {
+    display: flex;
+    margin: auto;
+}
+#navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.25rem;
+    font-family: 'Do Hyeon', sans-serif;
+}
+#navbar ul li a {
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 12px;
+    color: white;
+}
+#navbar ul li a:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.main-footer {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background: #272727;
+    padding: 20px 20px;
+    margin-top: 0px;
+    /* padding-bottom: 10px; */
+    margin-bottom: 0px;
+}
+.footer2 {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footer2 ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer2 ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+}
+.footer2 ul li a i img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+}
+.footer2 ul li a {
+    color: #272727;
+    font-size: 25px;
+}
+.footer2 ul li a i {
+    line-height: 50px;
+}
+.main-footer h3 {
+    text-align: center;
+    color: yellow;
+}
+#header {
+    padding: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.content {
+    display: inline-block;
+    width: 50%;
+   margin-left: 25%;
+   margin-right: 20%;
+    border: 3px solid greenyellow;
+    background-color: honeydew;
+    width: 50%;
+    min-width: 20%;
+}
+.content p {
+    padding: 50px;
+}
+.content img {
+    height: 200px;
+    min-width: 80px;
+    
+}
